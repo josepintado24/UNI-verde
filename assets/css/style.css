@@ -540,6 +540,12 @@ section {
 .section-bg {
   background-color: #f9f8ff;
 }
+.section-bg-agradecimiento{
+  background: linear-gradient(45deg, rgba(52, 191, 61, 0.7) 0%, rgba(52, 191, 61, 0.7) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  padding-top: 20px;
+  padding-bottom: 240px;
+  overflow: hidden;
+}
 
 .section-title {
   text-align: center;
