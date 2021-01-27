@@ -420,13 +420,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to top, rgba(196, 58, 48, 0.8) 0%, rgba(52, 191, 61, 1) 100%), url("../img/molle.jpg");
+  background-image: linear-gradient(to top, rgba(155, 23, 44, 0.8) 0%, rgba(52, 191, 61, 1) 100%), url("../img/molle.jpg");
   /* background: linear-gradient(45deg, rgba(146, 254, 157, 0.9) 0%, rgba(0, 201, 255, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat; */
   background-size: cover;
 }
 
 #hero .container, #hero .container-fluid {
-  padding-top: 84px;
+  padding-top: 8px;
 }
 
 #hero h1 {
@@ -436,12 +436,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 45px;
   color: #fff;
 }
+
 #hero span {
   color: #3DFF7B;
 }
-
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(80, 246, 250, 1);
   margin: 10px 0 0 0;
   font-size: 20px;
 }
@@ -457,7 +457,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  border: 2.5px solid #3DFF7B;
+  /* background-color: #18d26e; */
+  border: 2px solid #3DFF7B;
 }
 
 #hero .btn-get-started:hover {
@@ -496,7 +497,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 36px;
   }
   #hero h2 {
@@ -504,7 +505,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
   #hero .hero-img img {
-    width: 40%;
+    width: 60%;
   }
 }
 
@@ -549,6 +550,7 @@ section {
   padding-bottom: 240px;
   overflow: hidden;
 }
+
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -1503,7 +1505,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(52, 191, 61, 0.9) 0%, rgba(52, 191, 61, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(52, 191, 61, 0.7) 0%, rgba(52, 191, 61, 0.7) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
