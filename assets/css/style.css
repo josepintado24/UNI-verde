@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled, #header.header-inner-pages {
   background: rgba(52, 191, 61,0.9);
-  padding: 12px 0;
+  padding: 5px 0;
 }
 
 #header .logo {
