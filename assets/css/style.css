@@ -423,14 +423,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 65vh;
   background-image: linear-gradient(to top, rgba(248, 248, 248, 0.9 ) 10%, rgba(52, 191, 61, 1) 100%), url("../img/botella.png");
   /* background: linear-gradient(45deg, rgba(146, 254, 157, 0.9) 0%, rgba(0, 201, 255, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat; */
   background-size: cover;
 }
 
 #hero .container, #hero .container-fluid {
-  padding-top: 84px;
+  padding-top: 50px;
 }
 
 #hero h1 {
@@ -472,7 +472,28 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   color: #9700BE;
 }
+#hero .btn-watch-video {
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 0 8px 40px;
+  transition: 0.5s;
+  margin: 30px 0 0 25px;
+  color: #9700BE;
+  position: relative;
+}
 
+#hero .btn-watch-video i {
+  color: #9700BE;
+  font-size: 32px;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  transition: 0.3s;
+}
+
+#hero .btn-watch-video:hover i {
+  color: #3C7899;
+}
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
