@@ -587,8 +587,8 @@ section {
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 5px;
+  padding-bottom:5px;
   position: relative;
 }
 
