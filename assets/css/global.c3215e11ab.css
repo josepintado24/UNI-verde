@@ -237,7 +237,7 @@
  
  a:focus,
  a:hover {
-     color: #19806c
+     color: #d4d4d4
  }
  
  img {
@@ -10831,8 +10831,8 @@
  }
  
  .descripInstruc {
-     padding-top: 55px;
-     padding-bottom: 55px
+     padding-top: 10px;
+     padding-bottom: 10px
  }
  
  @media only screen and (max-width:991px) {
@@ -11523,6 +11523,25 @@
      color: #7a848c;
      transition: all .2s ease
  }
+ .modulo__box_import {
+    display: box;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    min-height: 45px;
+    padding: 12px;
+    border: 1px solid #1F803D;
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, .05);
+    background: #1F803D;
+    line-height: 1.3;
+    color: #ffffff;
+    transition: all .2s ease
+}
  
  .modulo__box:before,
  .panel-modulos .recurso__item {
@@ -11532,20 +11551,26 @@
      -ms-transition: all .2s ease
  }
  
- .modulo__box:hover {
-     border-color: #b0b5b9;
-     -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, .07);
-     box-shadow: 0 2px 0 0 rgba(0, 0, 0, .07);
-     color: #4a5156
- }
  
+ .modulo__box:hover {
+    border-color: #b0b5b9;
+    -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, .07);
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, .07);
+    color: #4a5156
+}
+.modulo__box_import:hover {
+    border-color: #ffffff;
+    -webkit-box-shadow: 0 2px 0 0 rgba(255, 253, 253, 0.07);
+    box-shadow: 0 2px 0 0 rgba(253, 253, 253, 0.07);
+    color: #dadcdd
+}
  .modulo__box:hover:before {
      color: #4a5156
  }
  
  .modulo__box:before {
      margin-right: 10px;
-     color: #8c98a1;
+     color: #fcfcfc;
      transition: all .2s ease
  }
  
