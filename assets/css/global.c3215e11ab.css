@@ -11542,7 +11542,24 @@
     color: #ffffff;
     transition: all .2s ease
 }
- 
+.modulo__box_subt {
+    
+    
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    min-height: 45px;
+    padding: 12px;
+    text-align: center !important;
+    
+    line-height: 1.3;
+    color: #ffffff;
+    transition: all .2s ease
+}
  .modulo__box:before,
  .panel-modulos .recurso__item {
      -webkit-transition: all .2s ease;
@@ -11564,6 +11581,12 @@
     box-shadow: 0 2px 0 0 rgba(253, 253, 253, 0.07);
     color: #dadcdd
 }
+/* .modulo__box_subt:hover {
+    border-color: #ffffff;
+    -webkit-box-shadow: 0 2px 0 0 rgba(255, 253, 253, 0.07);
+    box-shadow: 0 2px 0 0 rgba(253, 253, 253, 0.07);
+    color: #dadcdd
+} */
  .modulo__box:hover:before {
      color: #4a5156
  }
@@ -11617,6 +11640,16 @@
      border: 1px solid #d7dbde;
      background: #fff
  }
+ .comentAlumno__box_web {
+    position: relative;
+    
+    padding: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 0 0 rgba(233, 230, 230, 0.05);
+    border-radius: 5px;
+    border: 1px solid #11ce40;
+    background: #71db8b
+}
  
  @media only screen and (min-width:481px) and (max-width:768px) {
      .comentAlumno__box {
