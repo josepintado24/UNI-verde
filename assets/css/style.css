@@ -436,9 +436,9 @@ h1, h2, h3, h4, h5, h6 {
 #hero h1 {
   /* background: #3AC143; */
   margin: 0;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 35px;
   color: #7161FF;
 }
 #hero span {
@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #f7f7f7;
   margin: 10px 0 0 0;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #hero .btn-get-started {
@@ -473,7 +473,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #9700BE;
 }
 #hero .btn-watch-video {
-  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
   display: inline-block;
   padding: 10px 0 8px 40px;
   transition: 0.5s;
