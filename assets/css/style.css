@@ -521,27 +521,31 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #hero .hero-img img {
-    width: 40%;
+    width: 20%;
   }
 }
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 15px;
+    line-height: 20px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
   }
   #hero .hero-img img {
-    width: 30%;
+    width: 20%;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 70%;
+    width: 50%;
+  }
+  #hero {
+    width: 100%;
+    height: 100vh;
   }
 }
 
