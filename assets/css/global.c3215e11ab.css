@@ -11275,6 +11275,9 @@
  .modulo__header {
      margin-bottom: 22px
  }
+ .modulo__fin {
+    margin-bottom: 22px
+}
  
  .modulo__header.iz .modulo__titulo .titulo__h3 {
      -webkit-box-shadow: 0 3px 0 0 #2f4352;
@@ -11287,7 +11290,11 @@
      box-shadow: 0 3px 0 0 #586066;
      background: #7a848c
  }
- 
+ .modulo__fin.der .modulo__titulo .titulo__h3 {
+    -webkit-box-shadow: 0 3px 0 0 #552a07;
+    box-shadow: 0 3px 0 0 #532905;
+    background: #e97110
+}
  .comentAlumno__box,
  .modulo__box {
      -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, .05)
@@ -11324,6 +11331,9 @@
      .modulo__header.iz .modulo__duracion {
          margin-left: 10px
      }
+     .modulo__fin.iz .modulo__duracion {
+        margin-left: 10px
+    }
      .modulo__header.der .modulo__titulo {
          -webkit-box-ordinal-group: 1;
          -moz-box-ordinal-group: 1;
@@ -11333,12 +11343,27 @@
          order: 1;
          margin-left: 10px
      }
+     .modulo__fin.der .modulo__titulo {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -o-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+        margin-left: 10px
+    }
      .modulo__header.der .modulo__titulo .titulo__h3 {
          right: 0;
          padding-left: 20px;
          margin-left: 10px;
          border-radius: 22.5px 0 0 22.5px
      }
+     .modulo__fin.der .modulo__titulo .titulo__h3 {
+        right: 0;
+        padding-left: 20px;
+        margin-left: 10px;
+        border-radius: 22.5px 0 0 22.5px
+    }
      .modulo__header.der .modulo__duracion {
          -webkit-box-pack: end;
          -moz-box-pack: end;
@@ -11348,6 +11373,15 @@
          justify-content: flex-end;
          margin-right: 10px
      }
+     .modulo__fin.der .modulo__duracion {
+        -webkit-box-pack: end;
+        -moz-box-pack: end;
+        -o-box-pack: end;
+        -ms-flex-pack: end;
+        -webkit-justify-content: flex-end;
+        justify-content: flex-end;
+        margin-right: 10px
+    }
      .modulo__titulo {
          -webkit-box-flex: 1;
          -moz-box-flex: 1;
